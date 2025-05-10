@@ -10,9 +10,9 @@ export default function SideBar() {
             </Avatar>
 
             <ul className="space-y-2 flex flex-col justify-start align-top">
-                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/">Home</a></Button>
-                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/about">About</a></Button>
-                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/projects">Projects</a></Button>
+                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/portfolio-v2/">Home</a></Button>
+                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/portfolio-v2/about">About</a></Button>
+                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/portfolio-v2/projects">Projects</a></Button>
             </ul>
         </div>
     );
