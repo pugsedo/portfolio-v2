@@ -19,7 +19,7 @@ export default function App() {
           </div>
           <div className="w-full overflow-auto">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/portfolio-v2/" element={<Home />} />
             </Routes>
           </div>
         </div>
