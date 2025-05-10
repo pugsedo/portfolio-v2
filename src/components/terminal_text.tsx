@@ -15,7 +15,7 @@ export default function TerminalText() {
   useEffect(() => {
     const currentText = texts[textIndex];
 
-    let timeout: number;
+    let timeout: NodeJS.Timeout;
 
     if (isDeleting) {
       if (charIndex > 0) {
