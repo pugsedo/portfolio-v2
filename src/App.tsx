@@ -3,7 +3,9 @@ import SideBar from "./components/sidebar";
 import SideBarMini from "./components/sidebar_mini";
 
 import { Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
+import Achievements from "./pages/Achievements";
 
 export default function App() {
   return (
@@ -20,6 +22,7 @@ export default function App() {
           <div className="w-full overflow-auto">
             <Routes>
               <Route path="/portfolio-v2/" element={<Home />} />
+              <Route path="/portfolio-v2/achievements" element={<Achievements />} />
             </Routes>
           </div>
         </div>

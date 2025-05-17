@@ -11,6 +11,7 @@ export default defineConfig({
     tailwindcss()
   ],
   base: '/portfolio-v2/',
+  publicDir: 'public',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
