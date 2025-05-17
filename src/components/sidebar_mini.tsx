@@ -6,9 +6,9 @@ export default function SideBarMini() {
     return (
         <div className="flex flex-row">
         <ul className="space-y-2 flex flex-row justify-start align-top">
-            <Button variant="ghost" className="text-left"><a href="/portfolio-v2/">Home</a></Button>
-            <Button variant="ghost" className="text-left"><a href="/portfolio-v2/achievements">Achieve.</a></Button>
-            <Button variant="ghost" className="text-left"><a href="/portfolio-v2/projects">Projects</a></Button>
+            <Button variant="ghost" className="text-left"><a href="/">Home</a></Button>
+            <Button variant="ghost" className="text-left"><a href="/achievements">Achieve.</a></Button>
+            <Button variant="ghost" className="text-left"><a href="/projects">Projects</a></Button>
         </ul>
         <ul className="flex flex-row justify-end align-middle">
                 <a href="https://github.com/pugsedo">

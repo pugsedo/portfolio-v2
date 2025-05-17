@@ -12,9 +12,9 @@ export default function SideBar() {
             </Avatar>
 
             <ul className="space-y-2 flex flex-col justify-start align-top">
-                <a href="/portfolio-v2/"><Button variant="ghost" className="w-full text-left cursor-pointer">Home</Button></a>
-                <a href="/portfolio-v2/achievements"><Button variant="ghost" className="w-full text-left cursor-pointer">Achievements</Button></a>
-                <a href="/portfolio-v2/projects"><Button variant="ghost" className="w-full text-left cursor-pointer">Projects</Button></a>
+                <a href="/"><Button variant="ghost" className="w-full text-left cursor-pointer">Home</Button></a>
+                <a href="/achievements"><Button variant="ghost" className="w-full text-left cursor-pointer">Achievements</Button></a>
+                <a href="/projects"><Button variant="ghost" className="w-full text-left cursor-pointer">Projects</Button></a>
 
                 <ul className="flex flex-row w-full justify-center align-middle pt-5">
                     <a href="https://github.com/pugsedo">

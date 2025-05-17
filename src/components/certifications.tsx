@@ -16,7 +16,7 @@ export default function CertificationsSection() {
         <div key={idx} className="flex flex-row gap-5 p-4">
             <img
                 className="max-w-30 h-auto object-contain shadow"
-                src={`/portfolio-v2/certificates/${cert.id}/thumbnail.jpg`}
+                src={`/certificates/${cert.id}/thumbnail.jpg`}
                 alt={cert.title}
             />
             <div>
@@ -24,7 +24,7 @@ export default function CertificationsSection() {
                 <p className="text-sm text-muted-foreground">{cert.issuer}</p>
                 <p className="text-xs text-gray-400">{cert.date}</p>
                 <a
-                    href={cert.link ?? `/portfolio-v2/certificates/${cert.id}/cert.pdf`}
+                    href={cert.link ?? `/certificates/${cert.id}/cert.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline text-sm"

@@ -21,8 +21,8 @@ export default function App() {
           </div>
           <div className="w-full overflow-auto">
             <Routes>
-              <Route path="/portfolio-v2/" element={<Home />} />
-              <Route path="/portfolio-v2/achievements" element={<Achievements />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/achievements" element={<Achievements />} />
             </Routes>
           </div>
         </div>
