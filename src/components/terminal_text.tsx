@@ -46,7 +46,7 @@ export default function TerminalText() {
   }, [charIndex, isDeleting, textIndex]);
 
   return (
-    <p className="before:content-['❯'] before:mr-2 inline-block text-md text-muted-foreground font-mono">
+    <p className="max-h-6 before:content-['❯'] before:mr-2 inline-block text-md text-muted-foreground font-mono">
       {displayed}
 
       <span className="text-muted-foreground inline-block ml-1 align-baseline relative top-[1px] right-[2px] w-[9px] h-[15px] animate-caret-blink">

@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function SideBar() {
     return (
@@ -10,9 +12,22 @@ export default function SideBar() {
             </Avatar>
 
             <ul className="space-y-2 flex flex-col justify-start align-top">
-                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/portfolio-v2/">Home</a></Button>
-                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/portfolio-v2/about">About</a></Button>
-                <Button variant="ghost" className="w-full text-left cursor-pointer"><a href="/portfolio-v2/projects">Projects</a></Button>
+                <a href="/portfolio-v2/"><Button variant="ghost" className="w-full text-left cursor-pointer">Home</Button></a>
+                <a href="/portfolio-v2/about"><Button variant="ghost" className="w-full text-left cursor-pointer">About</Button></a>
+                <a href="/portfolio-v2/projects"><Button variant="ghost" className="w-full text-left cursor-pointer">Projects</Button></a>
+
+                <ul className="flex flex-row w-full justify-center align-middle pt-5">
+                    <a href="https://github.com/pugsedo">
+                        <Button variant="ghost" className="text-left cursor-pointer p-2 grow">
+                            <FontAwesomeIcon icon={faGithub} size="2x" color="grey" />
+                        </Button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mikhail-makarov-037997325/">
+                        <Button variant="ghost" className="text-left cursor-pointer p-2 grow">
+                            <FontAwesomeIcon icon={faLinkedin} size="2x" color="grey" />
+                        </Button>
+                    </a>
+                </ul>
             </ul>
         </div>
     );
