@@ -2,6 +2,8 @@
 
 Welcome to my portfolio website! This site showcases my journey in programming and software engineering, with a focus on the projects I've worked on and the skills I've developed over time.
 
+Visit my site at [mikhailm.netlify.app](mikhailm.netlify.app)!
+
 ## Technologies Used
 
 - **React** - A JavaScript library for building user interfaces.
